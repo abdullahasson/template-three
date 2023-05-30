@@ -134,18 +134,18 @@ setInterval(function() {
 } , 1000)
 
 
-// on scroll show
-ScrollReveal({ 
-  reset: false,
-  distance: `80px`,
-  duration: 2000,
-  delay: 200
-});
+// // on scroll show
+// ScrollReveal({ 
+//   reset: false,
+//   distance: `80px`,
+//   duration: 2000,
+//   delay: 200
+// });
 
-ScrollReveal().reveal(`.toe`, { origin: `top` });
-ScrollReveal().reveal('.boe', { origin: `bottom`});
-ScrollReveal().reveal('.leo', { origin: `left` });
-ScrollReveal().reveal('.roe', { origin: `right` });
+// ScrollReveal().reveal(`.toe`, { origin: `top` });
+// ScrollReveal().reveal('.boe', { origin: `bottom`});
+// ScrollReveal().reveal('.leo', { origin: `left` });
+// ScrollReveal().reveal('.roe', { origin: `right` });
 
-ScrollReveal().reveal('.onesecondroe' , {delay: 500 , origin: 'right'})
-ScrollReveal().reveal('.twosecondroe' , {delay: 1000 , origin: 'right'})
+// ScrollReveal().reveal('.onesecondroe' , {delay: 500 , origin: 'right'})
+// ScrollReveal().reveal('.twosecondroe' , {delay: 1000 , origin: 'right'})

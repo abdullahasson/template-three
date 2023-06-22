@@ -76,20 +76,7 @@ let list = document.querySelector(`header .container .list`);
 let stat = true
 
 last.addEventListener("click" , function() {
-    if (stat === true) {
-        list.style.cssText = 
-        `
-        opacity: 1;
-        top: 100%;
-        `
-        stat = false
-    } else {
-        list.style.cssText = 
-        `
-        opacity: 0;
-        `
-        stat = true
-    }
+    list.classList.toggle("active")
 })
 
 // ###############################################################

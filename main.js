@@ -79,18 +79,6 @@ last.addEventListener("click" , function() {
     list.classList.toggle("active")
 })
 
-// ###############################################################
-// Change Photo On click
-let photos = ["../template 3/images/video-preview.jpg" , "../template 3/images/تنزيل.jpg" , "../template 3/images/images.jpg" , "./images/images (1).jpg" , "../template 3/images/images (2).jpg" , "../template 3/images/images (3).jpg" , "../template 3/images/images (4).jpg"];
-
-let getBtn = document.querySelectorAll(`.video .main-video-section .content ul li`);
-let imageVideo = document.querySelector(`.video .main-video-section .right-part img`);
-
-getBtn.forEach((el) => {
-  el.onclick = function() {
-    imageVideo.setAttribute("src" , photos[el.getAttribute("data-psi")])
-  }
-})
 
 // ###############################################################
 
